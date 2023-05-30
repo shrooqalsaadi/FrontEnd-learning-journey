@@ -1,0 +1,17 @@
+.perent{
+    width: 70vw;
+    height: 50vh;
+    background-color: brown;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+}
+
+.item{
+
+    width: 60px;
+    height: 40px;
+    background-color: cadetblue;
+}
+

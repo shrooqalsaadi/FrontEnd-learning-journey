@@ -1,0 +1,15 @@
+
+
+.item{
+    margin: 0;
+    background-color: blueviolet;
+    width: 120px;
+    height: 150px;
+    text-align: center;
+    /* transform: translate(50% ,45%); */
+   /* transform: rotate(45deg);*/
+   /*transform: skew(44deg);*/
+   transform: scale(5 ,8 );
+   
+    transition: 4s;
+}
