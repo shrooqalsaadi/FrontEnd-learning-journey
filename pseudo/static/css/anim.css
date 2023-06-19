@@ -1,0 +1,46 @@
+.item{
+    background-color: cadetblue;
+    width: 500px;
+    height: 500px;
+    animation-duration: 10s;
+    animation-name: jss;
+    position: relative;
+    margin: auto;  
+
+    /* circle */
+    border: 2px solid;
+    border-radius: 50%;
+    border: 15px solid;
+    border-left-color: transparent;
+    
+   
+}
+
+
+@keyframes jss {
+    0%{
+        background-color: brown;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: darkgreen;
+    }
+    from{transform: rotate(-360deg);}
+    from{transform: rotate(360deg);}
+
+}
+.item::before{
+    content: "JS";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+   
+
+}

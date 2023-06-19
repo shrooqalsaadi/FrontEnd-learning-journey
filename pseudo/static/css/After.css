@@ -1,0 +1,25 @@
+/* .parent{  
+
+    background-image:url(../img/3b.webp) ;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.parent::after{
+    contain: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 0;
+    
+    
+}
+.parent:hover::after{
+    top: 100%;
+/* }
+
+
